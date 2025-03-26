@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erick 3°A Técnico</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #121212;
+            color: #d3d3d3;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding-top: 50px;
+            display: flex;
+            overflow-x: hidden;
+        }
+
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 200px;
+            height: 100%;
+            background-color: #1e1e1e;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            justify-content: flex-start;
+        }
+
+        .navbar button {
+            background: #333;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+        }
+
+        .navbar button:hover {
+            background: #555;
+        }
+
+        .content {
+            margin-left: 220px;
+            padding: 20px;
+            width: calc(100vw - 220px);
+            height: 200vh;
+        }
+
+        h1 {
+            margin-top: 20px;
+            font-family: "Shrikhand", serif;
+            letter-spacing: 3px; /* Aumenta o espaçamento das letras */
+            background-image: linear-gradient(to right, purple, pink); /* Degradê roxo e rosa */
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent; /* Torna a cor do texto transparente */
+            -webkit-text-fill-color: transparent; /* Para navegadores WebKit (Chrome, Safari) */
+        }
+
+        .shrikhand-regular {
+            font-family: "Shrikhand", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .gif-container {
+            position: absolute;
+            top: 150px;
+            left: 300px;
+            max-width: 300px;
+            width: 50%;
+            height: auto;
+            padding: 5px;
+            border-radius: 10px;
+            background: linear-gradient(90deg, rgba(0, 255, 255, 0.8), rgba(255, 0, 255, 0.8), rgba(255, 255, 0, 0.8), rgba(0, 255, 255, 0.8));
+            background-size: 400% 400%;
+            animation: neon-border 10s linear infinite;
+        }
+
+        @keyframes neon-border {
+            0% {
+                background-position: 0% 50%;
+            }
+            100% {
+                background-position: 100% 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})">Topo da página</button>
+        <button onclick="window.scrollTo({top: document.body.scrollHeight, behavior: 'smooth'})">Final da página</button>
+    </div>
+    <div class="content">
+        <h1>Lista de Exercícios Básicos de JavaScript</h1>
+        <div class="gif-container">
+            <div class="tenor-gif-embed" data-postid="20079899" data-share-method="host" data-aspect-ratio="1" data-width="100%">
+                <a href="https://tenor.com/view/monkey-gif-20079899">Monkey Sticker</a>
+                from <a href="https://tenor.com/search/monkey-stickers">Monkey Stickers</a>
+            </div>
+            <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+        </div>
+    </div>
+
+    <script src="exercicio1.js"></script>
+    <script src="exercicio2.js"></script>
+    <script src="exercicio3.js"></script>
+    <script src="exercicio4.js"></script>
+    <script src="exercicio5.js"></script>
+    <script src="exercicio6.js"></script>
+    <script src="exercicio7.js"></script>
+    <script src="exercicio8.js"></script>
+    <script src="exercicio9.js"></script>
+    <script src="exercicio10.js"></script>
+    <script src="exercicio11.js"></script>
+    <script src="exercicio12.js"></script>
+    <script src="exercicio13.js"></script>
+    <script src="exercicio14.js"></script>
+    <script src="exercicio15.js"></script>
+    <script src="exercicio16.js"></script>
+    <script src="exercicio17.js"></script>
+    <script src="exercicio18.js"></script>
+    <script src="exercicio19.js"></script>
+    <script src="exercicio20.js"></script>
+</body>
+</html>
